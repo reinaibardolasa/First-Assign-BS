@@ -1,9 +1,9 @@
 
 
 
-/*div{
-  border: 1px solid;
-}*/
+div{
+  /*border: 1px solid;*/
+}
 
 .row{
   padding-left: 10px;
@@ -14,7 +14,7 @@
 }
 
 .navbar-default{
-  background-color: ##E6E2EB;
+  background-color: #E6E2EB !important;
 }
 
 .nav-pills li a{
@@ -45,6 +45,8 @@ h3{
 
 .col-sm-6 img{
   width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .col-sm-3 img{
@@ -52,7 +54,10 @@ h3{
 }
 
 .Button{
+  padding: 6px;
   background-color: #E6E2EB;
+  border-radius: 5px 5px 5px 5px;
+  color: black;
 }
 
 .col-sm-12 img{
@@ -67,8 +72,19 @@ h3{
   background-color: #black !important;
   text-align: center;
   margin-top: 10px;
+  /*border: solid;*/
 }
-/*.panel{
-  background-color: black !important;
-  border-color: white !important;
+
+.panel-default{
+  background-color: #f5f5f5;
+}
+
+.col-sm-6 ul{
+  background-color: #f5f5f5;
+  margin-left: -30px !important; 
+}
+
+/*.col-sm-6 {
+  background-color: #f5f5f5;
+  margin-left: -30px !important;
 }*/
