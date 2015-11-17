@@ -1,29 +1,47 @@
 
 
 
-div{
+/*div{
   border: 1px solid;
-}
+}*/
 
 .row{
   padding-left: 10px;
 }
 
+.nav{
+  background-color: 8e8e8e;
+}
+
+.navbar-default{
+  background-color: ##E6E2EB;
+}
+
 .nav-pills li a{
     border-right: 2px #a3a3a3 solid;
+    background-color: #E6E2EB !important;
+}
+
+form{
+  height: 100%;
+  padding: 10px;
+  float: right;
+  border-left: 1px solid white;
+  border-radius: 10px 0px 0px 0px;
 }
 
 h3{
   margin-top: 10px !important;
   text-align: center;
   background-color: #E6E2EB;
+  /*background-color: #E4C06A;*/
   border-radius: 5px 5px 5px 5px;
   padding: 10px;
 }
 
-.col-sm-12{
-  padding: 0px;
-}
+/*.col-sm-12{
+  padding: 15px;
+}*/
 
 .col-sm-6 img{
   width: 100%;
@@ -33,11 +51,24 @@ h3{
   width: 100%;
 }
 
-.col-sm-6 p{
-  text-align: center;
-  font-size: 20px;
-}
-
 .Button{
   background-color: #E6E2EB;
 }
+
+.col-sm-12 img{
+  width: 100%;
+}
+
+.col-sm-3{
+  padding: 0px;
+}
+
+.panel-heading{
+  background-color: #black !important;
+  text-align: center;
+  margin-top: 10px;
+}
+/*.panel{
+  background-color: black !important;
+  border-color: white !important;
+}*/
